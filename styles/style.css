@@ -3,19 +3,21 @@
 * {
   font-family: "Open Sans", sans-serif;
 }
-/* header {
-  background-image: url("../images/header_bg.png");
-  background-repeat: no-repeat;
-  justify-content: end;
-} */
 
-/* .head-section {
-  display: flexbox;
-  justify-content: end;
-  align-items: center;
-} */
+.image-section {
+  position: static;
+}
+.header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
 }
 span {
   color: rgb(253, 110, 10);
@@ -23,10 +25,73 @@ span {
 .nav-title {
   /* font-weight: 800px;
   font-size: 45px; */
-  font-family: Open Sans;
   font-size: 45px;
   font-weight: 800;
   line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+nav li a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.btn-primary {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  padding: 18px 35px;
+  border-style: none;
+}
+.banner-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 35px 0px 200px;
+}
+.banner-content {
+  max-width: 580px;
+}
+.banner-content h4 {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner-content h1 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 116px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner-content p {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
   letter-spacing: 0%;
   text-align: left;
 }
