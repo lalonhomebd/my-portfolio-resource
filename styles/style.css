@@ -228,9 +228,6 @@ main {
   width: 50%;
 }
 .footer-section input[type="text"] {
-  /* border-radius: 5px;
-  padding: 18px 200px 18px 30px;
-  height: 64px; */
   width: 400px;
   height: 30px;
   border-radius: 5px;
@@ -240,8 +237,6 @@ main {
   font-size: 16px;
   font-weight: 400;
   color: rgb(117, 117, 117);
-
-  /* White Color */
   background: rgb(255, 255, 255);
 }
 .footer-section textarea {
